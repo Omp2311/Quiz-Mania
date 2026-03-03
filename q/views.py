@@ -47,5 +47,3 @@ class QuizViewSet(viewsets.ModelViewSet):
             )
         return Response({'message':'Question added Successfully'},status = status.HTTP_201_CREATED)
     
-def hellp(request):
-    return render(request,'hello.html')
